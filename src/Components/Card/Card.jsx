@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
-import Navigation from "./Navigation";
+import Navigation from "../Navigation";
+import Links from "./Links";
 
 const CardVariant = {
   initial: {
@@ -34,6 +35,7 @@ const Card = ({ children }) => {
         <div className=''>
           <img src='/assets/logo.svg' alt='' className=' ' width='440px' />
         </div>
+        <Links />
       </div>
       <div className='grid grid-cols-[6.8fr_3.2fr] gap-8 h-max  '>
         {children}

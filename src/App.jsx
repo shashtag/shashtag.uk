@@ -1,7 +1,7 @@
 // import hands from "/assets/hands.png";
 import { Route, Routes } from "react-router-dom";
-import Card from "./Components/Card";
-import Greetings from "./Components/Greetings";
+import Card from "./Components/Card/Card";
+import Greetings from "./Components/Greetings/Greetings";
 import FreelanceWork from "./Components/FreelanceWork";
 
 function App() {
