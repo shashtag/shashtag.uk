@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
-  <body>
+  <body class="bg-[rgb(30,30,30)]">
+    <div id="root" class="grid place-items-center h-[100vh] w-[100vw]"></div>
+
     <div
-      id="root"
-      class="bg-gradient-to-b from-white to-[#7A7A7A] grid place-items-center h-[100vh] w-[100vw]"></div>
-    <div
-      class="fixed bg-[#707070] w-[120%] h-[400px] top-[50%] left-[-10%] -rotate-6 -translate-y-[50%]"></div>
+      class="fixed top-0 left-0 bottom-0 right-0 z-0 back bg-gradient-to-b from-[#EAEEF7] to-[#9EA3AD] blur-[1000px]">
+      <div
+        class="fixed bg-[#0D0D0D] w-[200vw] h-[400px] left-[50%] -rotate-6 -translate-y-[50%] -translate-x-[50%] top-[50%]"></div>
+    </div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
