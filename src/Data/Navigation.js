@@ -1,4 +1,9 @@
 import Greetings from "../Components/Greetings/Greetings.jsx";
+import WorkExperience from "../Components/WorkExperience.jsx";
+import Education from "../Components/Education.jsx";
+import PersonalProjects from "../Components/PersonalProjects.jsx";
+import OpenSourceContributions from "../Components/OpenSourceProjects.jsx";
+import AchievementsAndCertificates from "../Components/AchievementsAndCertificates.jsx";
 
 export default [
   {
@@ -7,27 +12,27 @@ export default [
     text: "Greetings",
   },
   {
-    component: () => import("../Components/WorkExperience.jsx"),
+    component: WorkExperience,
     path: "/work-experience",
     text: "Work Experience",
   },
   {
-    component: () => import("../Components/Education.jsx"),
+    component: Education,
     path: "/education",
     text: "Education",
   },
   {
-    component: () => import("../Components/PersonalProjects.jsx"),
+    component: PersonalProjects,
     path: "/personal-projects",
     text: "Personal Projects",
   },
   {
-    component: () => import("../Components/OpenSourceProjects.jsx"),
+    component: OpenSourceContributions,
     path: "/open-source-contributions",
     text: "Open Source Contributions",
   },
   {
-    component: () => import("../Components/AchievementsAndCertificates.jsx"),
+    component: AchievementsAndCertificates,
     path: "/achievement-and-certificates",
     text: "Achievements & Certificates",
   },

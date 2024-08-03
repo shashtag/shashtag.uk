@@ -37,8 +37,8 @@ const Card = ({ children }) => {
         </div>
         <Links />
       </div>
-      <div className='grid grid-cols-[6.8fr_3.2fr] gap-8 h-max  '>
-        {children}
+      <div className='grid grid-cols-[6.8fr_3.2fr] gap-8 lg:h-[340px]'>
+        <div className='border-r-2 border-[#525034] p-8 pr-14'>{children}</div>
         <Navigation />
       </div>
     </motion.div>
