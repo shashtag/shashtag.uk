@@ -1,5 +1,9 @@
 const OpenSourceProjects = () => {
-  return <div>OpenSourceProjects</div>;
+  return (
+    <>
+      <div>Open Source Projects</div>
+    </>
+  );
 };
 
 export default OpenSourceProjects;

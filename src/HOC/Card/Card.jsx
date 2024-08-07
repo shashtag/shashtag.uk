@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
-import Navigation from "../Navigation";
+import Navigation from "../../Components/Navigation";
 import Links from "./Links";
 
 const CardVariant = {
@@ -37,8 +37,10 @@ const Card = ({ children }) => {
         </div>
         <Links />
       </div>
-      <div className='grid grid-cols-[6.8fr_3.2fr] gap-8 lg:h-[340px]'>
-        <div className='border-r-2 border-[#525034] p-8 pr-14'>{children}</div>
+      <div className='grid grid-cols-[6.8fr_3.2fr] gap-8 lg:h-[340px] text-[#0D0D0D]'>
+        <div className='border-r-2 border-[#525034] p-8 pr-14 overflow-scroll'>
+          {children}
+        </div>
         <Navigation />
       </div>
     </motion.div>

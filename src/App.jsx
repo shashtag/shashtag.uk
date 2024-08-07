@@ -1,6 +1,6 @@
 // import hands from "/assets/hands.png";
 import { Route, Routes } from "react-router-dom";
-import Card from "./Components/Card/Card";
+import Card from "./HOC/Card/Card";
 
 import nav from "./Data/Navigation";
 

@@ -9,7 +9,7 @@ const Navigation = () => {
         <Link
           key={item.path}
           to={item.path}
-          className='pb-2 block text-lg cursor-pointer hover:tracking-wider transition-all'>
+          className='pb-2 block text-lg cursor-pointer hover:tracking-wider transition-all '>
           {item.text}
         </Link>
       ))}

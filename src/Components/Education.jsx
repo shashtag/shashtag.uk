@@ -1,8 +1,8 @@
 const Education = () => {
   return (
-    <div>
-      <h1 className='text-6xl'>Education </h1>
-      <div className='mt-8'>
+    <>
+      <h1 className='text-4xl'>Education </h1>
+      <div className='mt-7'>
         <div className='flex'>
           <div className='mr-6'>
             <img src='/assets/vit.png' width='100' />
@@ -16,7 +16,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
