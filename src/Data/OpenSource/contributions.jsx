@@ -23,7 +23,7 @@ export default [
     name: "Free slot finder",
     tech: "React, FastAPI, python",
     description:
-      "recognize open hours in student time tables to figure out free slots for meetings - image recognition and processing, OCR",
+      "Maintainer - Recognize open hours in student time tables to figure out free slots for meetings - image recognition and processing, OCR",
     link: "https://github.com/ADG-VIT/ADG-Recruitment-Portal-2k20",
   },
   {
