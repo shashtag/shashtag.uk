@@ -9,10 +9,12 @@ const Work = () => {
           key={item.companyName}>
           <img src={item.logo} alt={item.companyName} width='40px' />
           <div>
-            <div className='font-bold text-xl'>{item.position}</div>
-            <div className='text-lg'>{item.companyName}</div>
-            <div className='opacity-60'>{item.duration}</div>
-            <div className='opacity-60'>{item.location}</div>
+            <div className='font-bold text-xl text-[#272401]'>
+              {item.position}
+            </div>
+            <div className='text-lg  text-[#525034]'>{item.companyName}</div>
+            <div className=' text-[#6E6C55]'>{item.duration}</div>
+            <div className=' text-[#6E6C55]'>{item.location}</div>
 
             <ul className='mt-3 list-disc'>
               {item.description.map((desc, i) => (

@@ -1,9 +1,9 @@
-import projects from "../../Data/PersonalProjects/projects";
+import projects from "../../Data/OpenSource/contributions";
 
-const Projects = () => {
+const Contributions = () => {
   return projects.map((project) => (
     <>
-      <div key={project.name} className='flex justify-between mt-5 text-lg'>
+      <div key={project.name} className='flex justify-between mt-5 text-lg '>
         <a
           href={project.link}
           target='about_blank'
@@ -17,4 +17,4 @@ const Projects = () => {
   ));
 };
 
-export default Projects;
+export default Contributions;
