@@ -44,7 +44,7 @@ const Card = ({ children }) => {
       <div className='flex justify-between'>
         <div className='ml-4 lg:ml-[5.25rem] '>
           <img
-            src='/assets/logo.png'
+            src='/assets/logo.webp'
             alt=''
             className=' w-[130px] sm:w-[220px] '
             width='220px'
@@ -55,9 +55,7 @@ const Card = ({ children }) => {
       <Menu />
       <div
         className={`grid lg:grid-cols-[6.8fr_3.2fr] gap-8 flex-[1] mb-8 overflow-auto text-[#0D0D0D]`}>
-        <div
-          className='border-r-2 border-[#525034] p-5 lg:p-8  lg:pr-14 overflow-scroll no-scrollbar'
-          style={{}}>
+        <div className='border-r-2 border-[#525034] p-5 lg:p-8  lg:pr-14 overflow-scroll no-scrollbar'>
           {children}
         </div>
         <Navigation />
