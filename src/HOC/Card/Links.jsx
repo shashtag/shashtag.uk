@@ -9,6 +9,7 @@ const Links = () => {
           key={link.href}
           whileHover={{ scale: 1.2 }}
           href={link.href}
+          aria-label={link.label}
           target='about_blank'>
           <img
             alt={link.alt}
