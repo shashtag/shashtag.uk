@@ -26,7 +26,7 @@ const Card = ({ children }) => {
       variants={CardVariant}
       initial='initial'
       animate='animate'
-      className={`bg-gradient-to-b from-[#F5F2EE] to-[#DCD9D5] ml-8 lg:ml-0 lg:w-[1000px] h-[100vh] lg:h-[571.428571429px] lg:rounded-2xl z-20 relative [--move-x:-100vw] lg:[--move-x:0] [--move-y:0] lg:[--move-y:-80vh] flex flex-col `}
+      className={`bg-gradient-to-b from-[#F5F2EE] to-[#DCD9D5] ml-8 lg:ml-0 w-[calc(100vw-32px)]  lg:w-[1000px] h-[100vh] lg:h-[571.428571429px] lg:rounded-2xl z-20 relative [--move-x:-100vw] lg:[--move-x:0] [--move-y:0] lg:[--move-y:-80vh] flex flex-col `}
       style={{ filter: "drop-shadow(0px 10px 20px)" }}>
       <img
         loading='lazy'
