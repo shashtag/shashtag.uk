@@ -11,6 +11,7 @@ const Links = () => {
           href={link.href}
           target='about_blank'>
           <img
+            alt={link.alt}
             src={link.icon}
             className='mx-2 sm:mx-4 lg:mx-3 cursor-pointer w-[32px]  sm:w-[36px] lg:w-[28px]'
             width='28'
