@@ -30,13 +30,13 @@ const Card = ({ children }) => {
       style={{ filter: "drop-shadow(0px 10px 20px)" }}>
       <img
         rel='preload'
-        src='/assets/hands/hands-sm.svg'
+        src='/assets/hands/hands-sm.webp'
         alt='hands small screen'
         className='absolute lg:hidden  -translate-x-[68.3%] h-[100vh]  top-[50%] -translate-y-1/2 '
       />
       <img
         rel='preload'
-        src='/assets/hands/hands-lg.png'
+        src='/assets/hands/hands-lg.webp'
         alt='hands large screen'
         className='absolute lg:bottom-[392.5px] hidden lg:block'
         width='1269.37269373px'
