@@ -32,7 +32,8 @@ const Card = ({ children }) => {
         rel='preload'
         src='/assets/hands/hands-sm.webp'
         alt='hands small screen'
-        className='absolute lg:hidden  -translate-x-[68.3%] h-[100vh]  top-[50%] -translate-y-1/2 '
+        className='absolute lg:hidden  -translate-x-[40.7%] h-[100vh]   top-[50%] -translate-y-1/2 '
+        height='100vh'
       />
       <img
         rel='preload'
