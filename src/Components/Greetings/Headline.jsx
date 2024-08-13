@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 const Headline = () => {
   return (
     <motion.svg
-      width='563'
-      height='82'
       viewBox='0 0 563 82'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'>

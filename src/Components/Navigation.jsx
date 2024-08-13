@@ -3,7 +3,7 @@ import nav from "../Data/Navigation";
 
 const Navigation = () => {
   return (
-    <div className='h-full'>
+    <div className='h-full hidden lg:block'>
       <div className='text-3xl pb-5'>ABOUT</div>
       {nav.map((item) => (
         <Link
