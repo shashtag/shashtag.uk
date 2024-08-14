@@ -26,7 +26,7 @@ const Card = ({ children }) => {
       variants={CardVariant}
       initial='initial'
       animate='animate'
-      className={`bg-gradient-to-b from-[#F5F2EE] to-[#DCD9D5] ml-8 lg:ml-0 w-[calc(100vw-32px)]  lg:w-[1000px] h-[100vh] lg:h-[571.428571429px] lg:rounded-2xl z-20 relative [--move-x:-100vw] lg:[--move-x:0] [--move-y:0] lg:[--move-y:-80vh] flex flex-col `}
+      className={`bg-gradient-to-b from-[#08D9D644] via-[#F1F1F1]  to-[#FBFBFB] from-0%  ml-8 lg:ml-0 w-[calc(100vw-32px)]  lg:w-[1000px] h-[100vh] lg:h-[571.428571429px] lg:rounded-2xl z-20 relative [--move-x:-100vw] lg:[--move-x:0] [--move-y:0] lg:[--move-y:-80vh] flex flex-col `}
       style={{ filter: "drop-shadow(0px 10px 20px)" }}>
       <img
         rel='preload'
@@ -47,7 +47,7 @@ const Card = ({ children }) => {
       <div className='flex justify-between'>
         <div className='ml-4 lg:ml-[5.25rem] '>
           <img
-            src='/assets/logo.webp'
+            src='/assets/logo.png'
             alt=''
             className=' w-[130px] sm:w-[220px] '
             width='220px'
@@ -58,8 +58,8 @@ const Card = ({ children }) => {
       </div>
       <Menu />
       <div
-        className={`grid lg:grid-cols-[6.8fr_3.2fr] gap-8 flex-[1] mb-8 overflow-auto text-[#0D0D0D]`}>
-        <div className='border-r-2 border-[#525034] p-5 lg:p-8  lg:pr-14 overflow-scroll no-scrollbar'>
+        className={`grid lg:grid-cols-[6.8fr_3.2fr] gap-8 flex-[1] mb-8 overflow-auto text-[#16121B]`}>
+        <div className=' p-5 lg:p-8  lg:pr-14 overflow-scroll no-scrollbar'>
           {children}
         </div>
         <Navigation />

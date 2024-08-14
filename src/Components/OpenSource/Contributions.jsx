@@ -7,10 +7,10 @@ const Contributions = () => {
         <a
           href={project.link}
           target='about_blank'
-          className='font-bold text-[#272401]'>
+          className='font-bold text-[#191620]'>
           {project.name}
         </a>
-        <div className=' text-[#525034] italic'>{project.tech}</div>
+        <div className=' text-[#004F9E] italic'>{project.tech}</div>
       </div>
       <div className='mt-3'>{project.description}</div>
     </>
