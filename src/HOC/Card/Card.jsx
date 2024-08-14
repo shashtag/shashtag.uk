@@ -33,7 +33,8 @@ const Card = ({ children }) => {
         src='/assets/hands/hands-sm.webp'
         alt='hands small screen'
         className='absolute lg:hidden  -translate-x-[20.3%] h-[100vh]   top-[50%] -translate-y-1/2 '
-        height='100vh'
+        height='auto'
+        width='auto'
       />
       <img
         rel='preload'
@@ -41,6 +42,7 @@ const Card = ({ children }) => {
         alt='hands large screen'
         className='absolute lg:bottom-[392.5px] hidden lg:block'
         width='1269.37269373px'
+        height='auto'
       />
       <div className='flex justify-between'>
         <div className='ml-4 lg:ml-[5.25rem] '>
@@ -49,6 +51,7 @@ const Card = ({ children }) => {
             alt=''
             className=' w-[130px] sm:w-[220px] '
             width='220px'
+            height='auto'
           />
         </div>
         <Links />

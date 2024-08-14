@@ -24,7 +24,7 @@ const Menu = () => {
         <div
           onClick={() => setOpen(!open)}
           className='absolute top-0 right-0 p-4 cursor-pointer'>
-          <img src='/assets/x.svg' alt='close' width={44} />
+          <img src='/assets/x.svg' alt='close' width={44} height='auto' />
         </div>
         <div className='grid place-items-center h-full'>
           <div>

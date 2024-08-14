@@ -5,7 +5,7 @@ const Education = () => {
       <div className='mt-7'>
         <div className='flex'>
           <div className='mr-6'>
-            <img src='/assets/vit.png' width='100' />
+            <img src='/assets/vit.png' width='100' height='auto' />
           </div>
           <div>
             <h2 className='text-2xl text-[#272401]'>Bachelor of Technology</h2>

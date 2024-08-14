@@ -7,7 +7,12 @@ const Work = () => {
         <div
           className='grid grid-cols-[3rem_1fr] mt-5 gap-1'
           key={item.companyName}>
-          <img src={item.logo} alt={item.companyName} width='40px' />
+          <img
+            src={item.logo}
+            alt={item.companyName}
+            width='40px'
+            height='auto'
+          />
           <div>
             <div className='font-bold text-xl text-[#272401]'>
               {item.position}
