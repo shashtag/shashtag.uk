@@ -4,8 +4,8 @@ const Education = () => {
       <h1 className='text-4xl'>Education </h1>
       <div className='mt-7'>
         <div className='flex'>
-          <div className='mr-6'>
-            <img src='/assets/vit.png' width='100' height='auto' />
+          <div className='mr-4'>
+            <img src='/assets/vit.png' width='64' height='auto' />
           </div>
           <div>
             <h2 className='text-2xl text-[#002C89] font-bold '>

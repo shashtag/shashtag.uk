@@ -10,7 +10,7 @@ const Menu = () => {
   return (
     <>
       <div
-        className='my-4 p-4 grid place-items-center capitalize bg-[#EAEAEA] text-[#252A34] font-bold shadow shadow-[#3D3D3D] lg:hidden'
+        className='my-14 p-4 grid place-items-center capitalize bg-[#EAEAEA] text-[#252A34] font-bold shadow shadow-[#3D3D3D] lg:hidden'
         onClick={() => setOpen(!open)}>
         <div>MENU</div>
       </div>
