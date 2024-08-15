@@ -28,12 +28,12 @@ export default [
   },
   {
     component: OpenSourceContributions,
-    path: "/open-source-contributions",
-    text: "Open Source Contributions",
+    path: "/open-source",
+    text: "Open Source",
   },
   {
     component: AchievementsAndCertificates,
-    path: "/achievement-and-certificates",
-    text: "Achievements & Certificates",
+    path: "/achievements",
+    text: "Achievements",
   },
 ];

@@ -3,7 +3,7 @@ import Headline from "./Headline";
 const Greetings = () => {
   return (
     <>
-      <div className=' mb-10 lg:mb-9  '>
+      <div className=' mb-9 lg:mb-9  '>
         <Headline />
       </div>
       <div className='mb-7 lg:mb-5 text-lg '>
@@ -12,7 +12,7 @@ const Greetings = () => {
         Founding Engineer at ProPro Productions, where I led a team and was
         responsible for architecting and developing multiple products.”
       </div>
-      <div className='text-lg -mb-1'>
+      <div className='text-lg -mb-4'>
         I specialize in creating beautiful, performant web applications with
         well-documented code.
       </div>

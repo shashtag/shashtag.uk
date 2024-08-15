@@ -1,8 +1,8 @@
 const Education = () => {
   return (
     <>
-      <h1 className='text-5xl'>Education </h1>
-      <div className='mt-9'>
+      <h1 className='text-5xl font-bold '>Education </h1>
+      <div className='mt-9 '>
         <div className='flex'>
           <div className='mr-4'>
             <img src='/assets/vit.png' width='64' height='auto' />
