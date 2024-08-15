@@ -3,13 +3,24 @@
 @tailwind utilities;
 
 @layer utilities {
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .no-scrollbar::-webkit-scrollbar {
-    display: auto;
+  /* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+  /* total width */
+  .scrollbar::-webkit-scrollbar {
+    background-color: #52eba4;
+    width: 4px;
+    border-radius: 4px;
   }
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .no-scrollbar {
-    -ms-overflow-style: auto; /* IE and Edge */
-    scrollbar-width: auto; /* Firefox */
+
+  /* scrollbar itself */
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ff2e63;
+    border-radius: 4px;
+  }
+
+  /* set button(top and bottom of the scrollbar) */
+  .scrollbar::-webkit-scrollbar-button {
+    display: none;
   }
 }

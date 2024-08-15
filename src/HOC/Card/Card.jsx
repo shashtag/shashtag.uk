@@ -58,8 +58,8 @@ const Card = ({ children }) => {
       </div>
       <Menu />
       <div
-        className={`grid lg:grid-cols-[6.8fr_3.2fr] gap-8 flex-[1] mb-8 overflow-auto text-[#16121B]`}>
-        <div className=' p-5 lg:p-8  lg:pr-14 overflow-scroll no-scrollbar'>
+        className={`grid lg:grid-cols-[7fr_3fr] gap-1 flex-[1] mb-8 overflow-auto text-[#16121B]`}>
+        <div className=' p-5 lg:p-8 overflow-y-scroll scrollbar'>
           {children}
         </div>
         <Navigation />

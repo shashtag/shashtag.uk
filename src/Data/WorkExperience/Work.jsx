@@ -7,7 +7,7 @@ export default [
     description: [
       <span key='1'>
         Managed operations, <b>led client meetings</b>, supported senior
-        colleagues and geratate <b>reports for clients insights </b>.
+        colleagues and geratate <b>reports for clients insights</b>.
       </span>,
       <span key='2'>
         Automated processes through <b>GoLang POC tools</b>, adopted by
