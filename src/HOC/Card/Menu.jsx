@@ -10,7 +10,7 @@ const Menu = () => {
   return (
     <>
       <div
-        className='my-4 p-4 grid place-items-center capitalize bg-[#7B7E86] text-[#F0F3F9] font-bold shadow shadow-[#3D3D3D] lg:hidden'
+        className='my-4 p-4 grid place-items-center capitalize bg-[#EAEAEA] text-[#252A34] font-bold shadow shadow-[#3D3D3D] lg:hidden'
         onClick={() => setOpen(!open)}>
         <div>MENU</div>
       </div>
@@ -18,7 +18,7 @@ const Menu = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
-        className={`lg:hidden absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#3d3d3d] to-[#050505] z-[2000] text-[#F0F3F9] font-bold shadow shadow-[#3D3D3D] transform transition-transform duration-500 ${
+        className={`lg:hidden absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#252A34] from-0% to-[#16121B] z-[2000] text-[#F0F3F9] font-bold shadow shadow-[#3D3D3D] transform transition-transform duration-500 ${
           open ? "translate-x-[0]" : "translate-x-full"
         }`}>
         <div
