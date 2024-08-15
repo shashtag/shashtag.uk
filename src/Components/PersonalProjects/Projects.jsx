@@ -1,4 +1,5 @@
 import projects from "../../Data/PersonalProjects/projects";
+import LinkIcon from "../Common/LinkIcon";
 
 const Projects = () => {
   return projects.map((project) => (
@@ -11,6 +12,7 @@ const Projects = () => {
           target='about_blank'
           className='font-bold text-[#191620]'>
           {project.name}
+          {project.link && <LinkIcon />}
         </a>
         <div className=' text-[#004F9E] italic'>{project.tech}</div>
       </div>

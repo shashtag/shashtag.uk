@@ -1,4 +1,5 @@
 import ancs from "../../Data/Achievements/Anc";
+import LinkIcon from "../Common/LinkIcon";
 
 const Anc = () => {
   return (
@@ -6,6 +7,7 @@ const Anc = () => {
       {ancs.map((anc) => (
         <li key={anc.title} className='mt-4 lg:mt-3'>
           <a href={anc.link}>{anc.title}</a>
+          {anc.link && <LinkIcon />}
         </li>
       ))}
     </ul>
